@@ -100,6 +100,6 @@ ENV ASPNETCORE_URLS=http://+:80 \
 RUN dotnet help
 
 
-ENTRYPOINT ["docker-entrypoint.sh"]
+# ENTRYPOINT ["docker-entrypoint.sh"]
 
-CMD [ "node" ]
+# CMD [ "node" ]
