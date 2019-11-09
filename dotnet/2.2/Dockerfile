@@ -58,3 +58,5 @@ RUN dotnet tool install --global texted-tool --version 1.1.0 \
     && dotnet tool install --global dotnet-reportgenerator-globaltool --version 4.0.7
 
 ENV PATH="$PATH:/root/.dotnet/tools"
+
+RUN docker pull mcr.microsoft.com/dotnet/core/aspnet:2.2.3
