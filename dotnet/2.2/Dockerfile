@@ -14,7 +14,9 @@ RUN apk add --no-cache \
         tzdata \
         userspace-rcu \
         zlib \
-        unzip
+        # added
+        unzip \
+        git
 
 # Configure web servers to bind to port 80 when present
 ENV ASPNETCORE_URLS=http://+:80 \
