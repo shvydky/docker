@@ -16,7 +16,8 @@ RUN apk add --no-cache \
         zlib \
         # added
         unzip \
-        git
+        git \
+        curl
 
 # Configure web servers to bind to port 80 when present
 ENV ASPNETCORE_URLS=http://+:80 \
