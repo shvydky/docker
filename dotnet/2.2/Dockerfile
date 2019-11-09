@@ -55,3 +55,5 @@ RUN dotnet help
 RUN dotnet tool install --global texted-tool --version 1.1.0 \
     && dotnet tool install --global coverlet.console --version 1.4.1 \
     && dotnet tool install --global dotnet-reportgenerator-globaltool --version 4.0.7
+
+ENV PATH="$PATH:/root/.dotnet/tools"
