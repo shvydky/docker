@@ -72,7 +72,7 @@ RUN powershell_version=7.0.0-preview.6 \
     # Add ncurses-terminfo-base to resolve psreadline dependency
     && apk add --no-cache ncurses-terminfo-base
 
-RUN dotnet tool install --global texted-tool --version 1.1.0 \
+RUN dotnet tool install --global texted-tool --version 1.1.1 \
     && dotnet tool install --global coverlet.console --version 1.6.0 \
     && dotnet tool install --global dotnet-reportgenerator-globaltool --version 4.3.6 \
     && dotnet tool install --global wyam.tool --version 2.2.9

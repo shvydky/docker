@@ -53,7 +53,7 @@ ENV DOTNET_USE_POLLING_FILE_WATCHER=true \
 # Trigger first run experience by running arbitrary cmd to populate local package cache
 RUN dotnet help
 
-RUN dotnet tool install --global texted-tool --version 1.1.0 \
+RUN dotnet tool install --global texted-tool --version 1.1.1 \
     && dotnet tool install --global coverlet.console --version 1.6.0 \
     && dotnet tool install --global dotnet-reportgenerator-globaltool --version 4.3.6 \
     && dotnet tool install --global wyam.tool --version 2.2.9
