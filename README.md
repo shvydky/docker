@@ -4,6 +4,8 @@ All images are based on [docker](https://hub.docker.com/_/docker) image to allow
 
 | Platform | Docker Image | Dockerfile |
 | -------- | ------------ | ---------- |
+| git & curl | `shvydky/builders:git-curl` | [/docker/git-curl/Dockerfile](/docker/git-curl/Dockerfile) |
 | .NET Core 3.1 | `shvydky/builders:dotnet-3.1` | [/dotnet/3.1/Dockerfile](/dotnet/3.1/Dockerfile) |
 | .NET Core 2.2 | `shvydky/builders:dotnet-2.2` | [/dotnet/2.2/Dockerfile](/dotnet/2.2/Dockerfile) |
 | NodeJS 12.13.0 | `shvydky/builders:node-12.13` | [/node/12.13/Dockerfile](/node/12.13/Dockerfile) |
+| NodeJS 12.16.2 | `shvydky/builders:node-12.16` | [/node/12.16/Dockerfile](/node/12.16/Dockerfile) |

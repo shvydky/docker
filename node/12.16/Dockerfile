@@ -1,6 +1,6 @@
 FROM docker:19.03.8
 
-ENV NODE_VERSION 12.13.0
+ENV NODE_VERSION 12.16.2
 
 RUN addgroup -g 1000 node \
     && adduser -u 1000 -G node -s /bin/sh -D node \
