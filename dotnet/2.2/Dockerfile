@@ -1,4 +1,4 @@
-FROM docker:19.03.4
+FROM docker:19.03.8
 
 # copied from mcr.microsoft.com/dotnet/core/runtime-deps:2.2.7-alpine3.10 AND MODIFIED!!!
 RUN apk add --no-cache \
