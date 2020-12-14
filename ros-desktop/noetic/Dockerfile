@@ -9,7 +9,6 @@ RUN apt-get update \
     && apt-get install -y \
         git \
         iputils-ping \
-        python-rosdep \
         ros-noetic-desktop-full \
     && rm -rf /var/lib/apt/lists/*
 
